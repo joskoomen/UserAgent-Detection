@@ -1,2 +1,2 @@
-# joskoomen-package_api-core
+# laravel-useragent-detection
 
