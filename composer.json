@@ -1,0 +1,28 @@
+{
+    "name": "joskoomen/device-detection",
+    "description": "Package for device and browser detection",
+    "type": "package",
+    "require": {
+        "joskoomen/abstract-api": "^1.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.7.*",
+        "laravel/tinker": "^1.0",
+        "phpunit/phpunit": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jos Koomen",
+            "email": "hello@joskoo.men"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JosKoomen\\Detect\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
